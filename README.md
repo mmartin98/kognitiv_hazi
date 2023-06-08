@@ -13,6 +13,10 @@ Világ
 
 A szimulációhoz létrehoztam a Blender-ben egy labirintust, ami világként fog szolgálni. Ezzen része néhány fal, amelyek között egy piros színnel megjelölt útvonal található, melyet a Turtlebot-nak követnie kell majd elejétől a végéig.
 
+A világ felülnézetből, ahogyan a Blender-ben elkészült, bal oldalt alul a robot indulási pozíciója, jobb oldalt pedig a célpozíció.
+![image](https://github.com/mmartin98/kognitiv_hazi/assets/62999338/e4247a06-6f49-4f4f-b05b-19cc78db7241)
+
+
 Ahhoz, hogy az alábbi projekt sikeresen futtatható legyen, szükségünk lesz a következőkre:
 
 opencv-python
