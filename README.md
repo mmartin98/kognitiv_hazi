@@ -22,4 +22,10 @@ Ahhoz, hogy az alábbi projekt sikeresen futtatható legyen, szükségünk lesz 
 opencv-python
 numpy
 
+Szükség lesz természetesen a Turtlebot3 alap csomag anyagaira a MOGI-s módosításokkal, melyeket az órán is használtunk, ezeket az alábbi GIT repokról lehet letölteni:
+
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_simulations
+git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs
+git clone https://github.com/MOGI-ROS/turtlebot3
+
 
