@@ -30,4 +30,6 @@ git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs
 
 git clone https://github.com/MOGI-ROS/turtlebot3
 
+A source parancsokat és a Turtlebot verzióját beleírtam a .bashrc-be, ezzel is könnyítve a futtatásokat.
+
 
