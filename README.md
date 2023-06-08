@@ -30,6 +30,9 @@ git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs
 
 git clone https://github.com/MOGI-ROS/turtlebot3
 
+
+Az eredeti MOGI-s verzióhoz képest annyi változtatást eszközöltem, hogy a kamerának a pitch szögének értékét átállítottam 0.4-re, ugyanis a tesztfuttatások során ez megfelelőnek bizonyult a kamera állását tekintve.
+
 A source parancsokat és a Turtlebot verzióját beleírtam a .bashrc-be, ezzel is könnyítve a futtatásokat.
 
 
