@@ -10,6 +10,7 @@ A vonalkövető modul fő célja, hogy lehetővé tegye a Turtlebot számára, h
 Hasonló, bonyolultabb vonalkövető modulokat gyakran használnak robotikai alkalmazásokban, például automatizált irányított járművekben (AGV), ipari robotokban és pilóta nélküli földi járművekben (UGV). Különösen hasznosak olyan helyzetekben, amikor a robotnak egy előre meghatározott útvonalon kell navigálnia, például gyártási vagy raktári környezetben.
 
 Világ
+
 A szimulációhoz létrehoztam a Blender-ben egy labirintust, ami világként fog szolgálni. Ezzen része néhány fal, amelyek között egy piros színnel megjelölt útvonal található, melyet a Turtlebot-nak követnie kell majd elejétől a végéig.
 
 Ahhoz, hogy az alábbi projekt sikeresen futtatható legyen, szükségünk lesz a következőkre:
