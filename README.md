@@ -66,7 +66,9 @@ Ez eltarthat egy darabig, legalábbis az én gépem kevésbé bírja már jól, 
 
 A szimuláció kicsit lassú, a korábban megemlített nagyméretű pályának következtében, szépen lassan a Turtlebot végighalad a kijelölt pályán a kezdeti ponttól a végpontig.
 
+A szimulációról készült videó az alábbi linken tekinthető meg:
 
+https://bmeedu-my.sharepoint.com/:v:/g/personal/mmartinmelicher_edu_bme_hu/EX-fCvUW2ChHkHGVM29Jr3YBb7jt9fRxMJCGhd9AuQ0i7A?e=BJt5TR
 
 
 
