@@ -25,7 +25,7 @@ A világ felülnézetből, ahogyan a Blender-ben elkészült, bal oldalt alul a 
 
 Ahhoz, hogy az alábbi projekt sikeresen futtatható legyen, szükségünk lesz a következőkre:
 
-opencv-python
+`opencv-python`
 numpy
 
 Szükség lesz természetesen a Turtlebot3 alap csomag anyagaira a MOGI-s módosításokkal, melyeket az órán is használtunk, ezeket az alábbi GIT repokról lehet letölteni:
