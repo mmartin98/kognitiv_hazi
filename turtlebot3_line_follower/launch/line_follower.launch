@@ -1,0 +1,32 @@
+<launch>
+    <arg name="sim" default="false"/>
+    <arg name="rec" default="false"/>
+    <arg name="x" default="0.025"/>
+    <arg name="y" default="0"/>
+    <arg name="z" default="0"/>  
+    <arg name="roll" default="0"/>
+    <arg name="pitch" default="0"/>
+    <arg name="yaw" default="0.8"/>  
+    <arg name="model" default="burger" doc="model type [burger, waffle, waffle_pi]"/>
+    
+
+    <!-- Vilag szimulacio és node -->
+    <include file="$(find gazebo_ros)/launch/empty_world.launch">
+        <arg name = "world_name" value =  "$(find turtlebot3_line_follower)/world/linefollowermap3.world"/>
+        <arg name="paused" value="false"/>
+        <arg name="use_sim_time" value="true"/>
+        <arg name="gui" value="true"/>
+        <arg name="headless" value="false"/>
+        <arg name="debug" value="false"/>
+    </include>
+
+    <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_burger_for_autorace.urdf.xacro" />
+    <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model autorace -x $(arg x) -y $(arg y) -z $(arg z) -R $(arg roll) -P $(arg pitch) -Y $(arg yaw) -param robot_description"/>
+    
+    <include file="$(find turtlebot3_bringup)/launch/turtlebot3_remote.launch">
+        <arg name="model" value="$(arg model)" />
+    </include>
+    <!-- RQT kep nezet a vonalkovetohoz -->
+    <node pkg="rqt_image_view" type="rqt_image_view" name="rqt_image_view" args="/line_follower"/>
+
+</launch>
