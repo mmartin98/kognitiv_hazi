@@ -3,6 +3,7 @@
 Az én házi feladatom részeként egyszerű vonalkövetést próbálok egy ROS Noetic projekt keretében Gazebo környezetben szimulálni egy Turtlebot3 segítségével. A szimuláció során nyomon lehet majd követni a robotkamera képét és hogy hogyan érzékeli és követi a kijelöltútvonalat.
 
 Itt látható egy kép a kameráról:
+
 ![utvonal](https://github.com/mmartin98/kognitiv_hazi/assets/62999338/8c80aaa9-51bd-4db9-9bce-a9e8eb82fe0e)
 
 
