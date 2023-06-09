@@ -17,10 +17,10 @@ Hasonló, bonyolultabb vonalkövető modulokat gyakran használnak robotikai alk
 A szimulációhoz létrehoztam a Blender-ben egy labirintust, ami világként fog szolgálni. Ezzen része néhány fal, amelyek között egy piros színnel megjelölt útvonal található, melyet a Turtlebot-nak követnie kell majd elejétől a végéig.
 
 A világ felülnézetből, ahogyan a Blender-ben elkészült, bal oldalt alul a robot indulási pozíciója, jobb oldalt pedig a célpozíció.
-![image](https://github.com/mmartin98/kognitiv_hazi/assets/62999338/e4247a06-6f49-4f4f-b05b-19cc78db7241)
+![image](https://github.com/mmartin98/kognitiv_hazi/assets/62999338/230c487a-6a60-4c59-a80e-a03619977fdb)
 
 Így pedig ahogy Gazebo szimuláció közben (kikapcsolt árnyékokkal):
-![palya](https://github.com/mmartin98/kognitiv_hazi/assets/62999338/c09386e5-c85b-4814-b11b-c2cd43a2b0cd)
+![image](https://github.com/mmartin98/kognitiv_hazi/assets/62999338/e8fac889-47e6-4304-8db7-c24cb47a4570)
 
 Ahhoz, hogy az alábbi projekt sikeresen futtatható legyen, szükségünk lesz a következőkre:
 
