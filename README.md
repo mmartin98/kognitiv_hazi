@@ -49,14 +49,14 @@ A source parancsokat és a Turtlebot verzióját beleírtam a `.bashrc`-be, ezze
 A Blender-ből betöltött fájlt a Gazebo segítségével .world fájllá alakítottam, amiben annyi további változtatást eszközöltem, hogy 40-ed részére csökkentettem a méretét, ugyanis későn vettem észre, hogy a Blender-ben készített munkám túl nagy volt, és ez tűnt a legegyszerűbb megoldásnak.
 
 A szimuláció futtatásához két terminálra lesz szükség, egyikben elnavigálunk a megfelelő mappába a 
-cd catkin_workspace
-cd src
+`cd catkin_workspace`
+`cd src`
 
 parancsok segítségével, majd pedig elindítjuk a ROS-t és a Gazebo szimulációt:
-roslaunch turtlebot3_line_follower line_follower.launch
+`roslaunch turtlebot3_line_follower line_follower.launch`
 
 Ez eltarthat egy darabig, legalábbis az én gépem kevésbé bírja már jól, de amint betöltött, a másik terminálon a follower.py futtatásával elindíthatjuk a robotunkat:
-rosrun turtlebot3_line_follower follower.py
+`rosrun turtlebot3_line_follower follower.py`
 
 A szimuláció kicsit lassú, a korábban megemlített nagyméretű pályának következtében, szépen lassan a Turtlebot végighalad a kijelölt pályán a kezdeti ponttól a végpontig.
 
