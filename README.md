@@ -40,7 +40,7 @@ git clone https://github.com/MOGI-ROS/turtlebot3
 
 ## Program felépítése
 
-A `turtlebot3_line_follower` alapból 3 fő részre osztható, ezekből a launch és a world az indítéskori kezdeti paraméterekért és azok betöltéséért és magáért a világért felelnek, de a lényegi rész a scripts alatt található. Az itt található 3 python program felelős az egész vonalkövetés működéséért. A `detector.py` felelős a vonal érzékeléséért a kamerán keresztül és egy értéked ad vissza ezek alapján attól függően, hogy melyik irányba kell mennie a robotnak. A `follower.py` felelős a tényleges vonalkövetésért, amit a rosrun paranccsal majd meg kell hívni hogy a szimuláció ténylegesen elinduljon. A `motion.py` tartalmazza a mozgást kezelő kódokat, itt lehet beállítani a sebesség értékeket, amivel a robot mozogni fog a szimuláció során.
+A `turtlebot3_line_follower` alapból 3 fő részre osztható, ezekből a launch és a world az indítéskori kezdeti paraméterekért és azok betöltéséért és magáért a világért felelnek, de a lényegi rész a scripts alatt található. Az itt található 3 python program felelős az egész vonalkövetés működéséért. A `detector.py` felelős a vonal érzékeléséért a kamerán keresztül és egy értéked ad vissza ezek alapján attól függően, hogy melyik irányba kell mennie a robotnak. A `follower.py` felelős a tényleges vonalkövetésért, amit a rosrun paranccsal majd meg kell hívni hogy a szimuláció ténylegesen elinduljon. Továbbá ez iratkozik fel a kamera képére és ez adja át a képet a detectornak. A `motion.py` tartalmazza a mozgást kezelő kódokat, itt lehet beállítani a sebesség értékeket, amit a kód a Twist class-on keresztül publishol.
 
 ## Változtatások, megjegyzések, elkészítés lépései és futtatás
 
