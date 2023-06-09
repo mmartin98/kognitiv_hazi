@@ -30,9 +30,18 @@ git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs
 
 git clone https://github.com/MOGI-ROS/turtlebot3
 
+Program felépítése
+
+A turtlebot3_line_follower alapból 3 fő részre osztható, ezekből a launch és a world az indítéskori kezdeti paraméterekért és azok betöltéséért és magáért a világért felelnek, de a lényegi rész a scripts alatt található. Az itt található 3 python program felelős az egész vonalkövetés működéséért. A detector.py felelős a vonal érzékeléséért a kamerán keresztül és egy értéked ad vissza ezek alapján attól függően, hogy melyik irányba kell mennie a robotnak. A follower.py felelős a tényleges vonalkövetésért, amit a rosrun paranccsal majd meg kell hívni hogy a szimuláció ténylegesen elinduljon. A motion.py tartalmazza a mozgást kezelő kódokat, itt lehet beállítani a sebesség értékeket, amivel a robot mozogni fog a szimuláció során.
+
+Változtatások, megjegyzések, elkészítés lépései és futtatás
 
 Az eredeti MOGI-s verzióhoz képest annyi változtatást eszközöltem, hogy a kamerának a pitch szögének értékét átállítottam 0.4-re, ugyanis a tesztfuttatások során ez megfelelőnek bizonyult a kamera állását tekintve.
 
 A source parancsokat és a Turtlebot verzióját beleírtam a .bashrc-be, ezzel is könnyítve a futtatásokat.
+
+A Blender-ből betöltött fájlt a Gazebo segítségével .world fájllá alakítottam, amiben annyi további változtatást eszközöltem, hogy 40-ed részére csökkentettem a méretét, ugyanis későn vettem észre, hogy a Blender-ben készített munkám túl nagy volt, és ez tűnt a legegyszerűbb megoldásnak.
+
+
 
 
