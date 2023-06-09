@@ -36,6 +36,7 @@ git clone https://github.com/ROBOTIS-GIT/turtlebot3_msgs
 
 git clone https://github.com/MOGI-ROS/turtlebot3
 ```
+Ezen felül csupán erre a saját repomra van még szükség, amiben a turtlebot3_line_follower mappa található.
 
 ## Program felépítése
 
