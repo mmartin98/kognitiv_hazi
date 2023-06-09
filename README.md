@@ -16,6 +16,8 @@ A szimulációhoz létrehoztam a Blender-ben egy labirintust, ami világként fo
 A világ felülnézetből, ahogyan a Blender-ben elkészült, bal oldalt alul a robot indulási pozíciója, jobb oldalt pedig a célpozíció.
 ![image](https://github.com/mmartin98/kognitiv_hazi/assets/62999338/e4247a06-6f49-4f4f-b05b-19cc78db7241)
 
+Így pedig ahogy Gazebo szimuláció közben (kikapcsolt árnyékokkal):
+![image](https://github.com/mmartin98/kognitiv_hazi/assets/62999338/6be10b28-16d1-4c37-892c-bc70e6519691)
 
 Ahhoz, hogy az alábbi projekt sikeresen futtatható legyen, szükségünk lesz a következőkre:
 
