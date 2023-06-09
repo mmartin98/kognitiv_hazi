@@ -4,8 +4,7 @@ Az én házi feladatom részeként egyszerű vonalkövetést próbálok egy ROS 
 
 Itt látható egy kép a kameráról:
 
-![utvonal](https://github.com/mmartin98/kognitiv_hazi/assets/62999338/8c80aaa9-51bd-4db9-9bce-a9e8eb82fe0e)
-
+![image](https://github.com/mmartin98/kognitiv_hazi/assets/62999338/2dd59cf5-d381-467d-bc56-809236496c29)
 
 ## Rövid összefoglaló
 
